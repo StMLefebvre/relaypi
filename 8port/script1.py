@@ -6,7 +6,13 @@ GPIO.setmode(GPIO.BCM)
 
 # init list with pin numbers
 
-pinList = [2, 3, 4, 17, 27, 22, 10, 9]
+#pinList = [2, 3, 4, 17, 27, 22, 10, 9]
+
+#So rather than using 2, 3, 4, 17, 27, 22, 10 & 9
+#I'm using 4, 17, 27, 22, 5, 6, 13 & 26. And the pir is on 7.
+
+pinList = [4, 17, 27, 22, 5, 6, 7, 26]
+
 
 # loop through pins and set mode and state to 'low'
 
